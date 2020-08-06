@@ -7,3 +7,8 @@ restriction on how your encode/decode algorithm should work. You just need to en
 that an N-ary tree can be encoded to a binary tree and this binary tree can be decoded 
 to the original N-nary tree structure.
 
+
+The strategy follows two rules:
+
+    The left childof each node in the binary tree is the next siblingof the node in the N-ary tree.
+    The right childof each node in the binary tree is the first childof the node in the N-ary tree
